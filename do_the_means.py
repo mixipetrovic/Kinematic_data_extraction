@@ -71,7 +71,6 @@ if not os.path.exists(target_directory):
     print(f"The specified directory '{target_directory}' does not exist.")
     sys.exit(1)
 
-
 # Create a dictionary to store data for each variable
 variable_data_dict = {}
 
