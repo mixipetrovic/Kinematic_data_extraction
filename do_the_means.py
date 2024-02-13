@@ -89,6 +89,7 @@ for file_name in os.listdir(target_directory):
         # Extract variables and store them in the dictionary
         extract_and_store_variables(file_path, variable_data_dict)
 
+
 # Create a new Excel file for storing variable data
 output_excel_path = os.path.join(target_directory, 'BilateralSquat/squat_variable_data.xlsx')
 with pd.ExcelWriter(output_excel_path, engine='openpyxl', mode='w') as writer:
